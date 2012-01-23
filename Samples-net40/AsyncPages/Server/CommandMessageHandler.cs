@@ -14,9 +14,11 @@ namespace Server
             Thread.Sleep(TimeSpan.FromSeconds(1));
 
             if (message.Id % 2 == 0)
-                Bus.Return((int)ErrorCodes.Fail);
-            else 
-                Bus.Return((int)ErrorCodes.None);
+                Bus.Reply<CommandReply>(t => { t.Message = "Bla pari" + message.Id; });
+            //    Bus.Return(ErrorCodes.Fail);
+            else
+                Bus.Reply<CommandReply>(t => { t.Message = "Bla dispari" + message.Id; });
+            //Bus.Return(ErrorCodes.None);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectBuilder.CastleWindsor", "ObjectBuilder.CastleWindsor\ObjectBuilder.CastleWindsor.csproj", "{9A9A0BD5-AC37-4B90-B90F-FD1C1395FEBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectBuilder.StructureMap", "ObjectBuilder.StructureMap\ObjectBuilder.StructureMap.csproj", "{C05E5B87-EB74-4A3F-B4FC-AFDD28570850}"
@@ -16,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectBuilder.StructureMap262", "ObjectBuilder.StructureMap262\ObjectBuilder.StructureMap262.csproj", "{FE227BB8-E24E-41E4-B7ED-677B27C4DC4A}"
 EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -52,9 +56,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
